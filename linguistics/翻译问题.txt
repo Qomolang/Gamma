@@ -5,6 +5,7 @@
 各国人名对照表
 charles      英语-查理      德语-卡尔     法语-夏尔    西班牙语-卡洛斯  荷兰语-卡雷尔
 michael      英语-迈克尔    德语-米夏埃尔
+robert       英语-罗伯特    法语-罗贝尔
 roger        英语-罗杰      法语-罗歇
 法语-louis   德语-ludwig
 英语-william 法语-Guillaume
