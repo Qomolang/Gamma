@@ -7,7 +7,8 @@ charles      英语-查理      德语-卡尔     法语-夏尔    西班牙语-
 michael      英语-迈克尔    德语-米夏埃尔
 robert       英语-罗伯特    法语-罗贝尔
 roger        英语-罗杰      法语-罗歇
-
 louis        英语-路易斯    法语-路易  匈牙利语-拉约什
+
 英语-william 法语-Guillaume
 法语-louis   德语-ludwig
+英语-henry   德语-heinrich
