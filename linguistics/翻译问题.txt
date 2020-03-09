@@ -9,6 +9,8 @@ robert       英语-罗伯特    法语-罗贝尔
 roger        英语-罗杰      法语-罗歇
 louis        英语-路易斯    法语-路易  匈牙利语-拉约什
 
+拉丁-所罗门 土耳其语--苏莱曼
+
 英语-william 法语-Guillaume
 法语-louis   德语-ludwig
 英语-henry   德语-heinrich
