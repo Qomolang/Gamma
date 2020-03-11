@@ -20,7 +20,7 @@
 
 克洛德·路易·赫克托尔·德·维拉尔克洛德·路易·赫克托尔·德·维拉尔，马蒂格亲王，维拉尔公爵和侯爵和默伦子爵（Claude Louis Hector de Villars, Prince de Martigues, Marquis and Duc de Villars and Vicomte de Melun，1653年5月8日－1734年6月17日）
 十八世纪欧洲三大将军之一\
-多次击败欧根亲王\
+在西班牙王位继承战争中多次击败欧根亲王，拯救了法国\
 
 
 弗朗索瓦·米歇尔·勒泰利埃，卢福瓦侯爵（法语：François Michel Le Tellier, Marquis de Louvois，1641年1月18日－1691年7月16日）
