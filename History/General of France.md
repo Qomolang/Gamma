@@ -21,7 +21,11 @@
 克洛德·路易·赫克托尔·德·维拉尔克洛德·路易·赫克托尔·德·维拉尔，马蒂格亲王，维拉尔公爵和侯爵和默伦子爵（Claude Louis Hector de Villars, Prince de Martigues, Marquis and Duc de Villars and Vicomte de Melun，1653年5月8日－1734年6月17日）
 十八世纪欧洲三大将军之一\
 在西班牙王位继承战争中多次击败欧根亲王，拯救了法国\
+1709马尔普拉凯战役中维拉尔严重受伤，但使马尔博罗公爵和欧根亲王遭受极为惨重的伤，他告诉国王：“如果再给陛下的敌人一场这样能让上帝满意的胜利，敌人将注定毁灭。”（"If it please God to give your majesty's enemies another such victory, they are ruined."）。
+在马尔博罗公爵和他的英军撤出营地回国后，第三年（1712年）维拉尔在德南战役中终于击败萨伏依的欧根亲王，攻占莱茵河畔的兰道（Landau），迫使欧根亲王签订了拉什塔特和约（Treaty of Rastatt）
+两年后，在1714年，维拉尔元帅成为不朽者
 
+马尔普拉凯战役英奥联军损失惨重，这一胜利挽救了法国，尽管战争拖了一年，在马尔博罗公爵和他的英军撤出营地回国后，第三年（1712年）维拉尔在德南战役中终于击败萨伏依的欧根亲王，攻占莱茵河畔的兰道（Landau），迫使欧根亲王签订了拉什塔特和约（Treaty of Rastatt）。
 
 弗朗索瓦·米歇尔·勒泰利埃，卢福瓦侯爵（法语：François Michel Le Tellier, Marquis de Louvois，1641年1月18日－1691年7月16日）
 担任陆军国务大臣（……他是柯尔贝的政敌，o军马鹿！）
