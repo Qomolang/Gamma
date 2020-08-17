@@ -14,3 +14,13 @@ julia        英语-朱莉娅            德语-尤利娅              著名的
 英语-william 法语-Guillaume
 法语-louis   德语-ludwig
 英语-henry   德语-heinrich
+
+
+令人窒息的翻译：
+forward compatibility 向前兼容
+backward compatibility 向后兼容
+英语中 forward指未来，backward指过去
+汉语中 前指“从前” 后指“以后” 
+
+default 缺省 
+完全难以理解为什么会把默认翻译成缺省
