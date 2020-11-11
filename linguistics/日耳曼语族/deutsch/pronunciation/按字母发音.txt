@@ -2,17 +2,21 @@
 中文也有 比如 西安
 德语里有复合词 复合词绝大多数都是不连读（有喉塞音）除了少数常用词为例外 比如einander heraus
 
+a
 [a:] a aa ah\
 [a] a\
 
+e
 [e:] e eh ee
 [ɛ] e
 [ə] e\
 德语里没有[e]
 
-[u：] u uh
+u
+[u:] u uh
 [u] u
 
+i
 [i:] i ie ih ieh
 [ɪ] i
 德语里也没有[i]
