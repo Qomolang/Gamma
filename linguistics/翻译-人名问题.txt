@@ -15,6 +15,7 @@ julia        英语-朱莉娅            德语-尤利娅              著名的
 法语-louis   德语-ludwig
 英语-henry   德语-heinrich
 
+法语 弗朗索瓦 François 德语 franz 弗朗茨
 
 令人窒息的翻译：
 forward compatibility 向前兼容
