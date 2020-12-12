@@ -1,0 +1,119 @@
+colony [ˈkɒləni] 殖民地；群体
+paradigm	[ˈpærədaɪm]
+scheme [ski:m]
+heuristic	英[hjuˈrɪstɪk] 
+procedure 英[prəˈsiːdʒə(r)] 流程
+minus [mainəs] 减去
+exponentially 英[ˌɛkspəˈnɛnʃ(ə)li]
+maximize
+trivial [ˈtrɪviəl]
+accurate
+algorithm [ˈælɡərɪðəm]
+valid	[ˈvælɪd]
+elite [eɪˈliːt]
+volatility [[ˌvɒləˈtɪlɪti]]
+
+2.
+cloud computing provides convenient service paradigm[ˈpærədaɪm] 
+
+it benifits users and service providers both,
+on the side of cloud users, they can get service-on-need and it is not necessary to build and maintain hardware environment anymore.
+on the side of service provider, they can virtualize the physical resources and make the resoure allocation more flexible
+
+the Scheduling scheme affects the system performance directly, and as a result, it affects the output. So scheduling problem is always one of the most important problems in every System.
+
+the scheduling procedure in the cloud environment is as following:
+users submit the tasks into the cloud, and the tasks would be allocated to the virtual nodes at first, and the hosts will handle with the nodes.
+this article focus on the task and nodes level, and our next article focus on the level between nodes and hosts.
+
+3.
+Task scheduling problem is NP-Hard, which means if you take the trivial method the needed time in the worst case grows exponentially with the instance scale .
+And there are more difficult points in cloud scheduling problem.
+The first point is caused by virtualization, it makes the roles split into cloud users and cloud service providers, they put attention into different objective, the users may focus on the cost and finished time ,which is usually called the makespan, and the service providers may focus on energy and utilization.
+the second point is caused by distribution, the service providers can supervise more hosts and they will be faced with the scalable tasks submitted by the cloud users in the meanwhile.
+so, there are some emerging problems ,such as more objectives, Low scheduling efficiency, Utilization needs to improve and so on…
+
+4. this article is to handle with the cloud task scheduling problem.
+the problem is caused by the difference in the task set and the same thing in the recource node set.
+from table one ,we can see that different tasks have different specifications and trendency
+
+from table 2 and figure on up side, we can see that Different nodes have different resource capability and resource ratio.
+
+so,the goal is to maximize the target function by matching the tasks and nodes reasonly
+
+
+5.
+our scheduling target considers the makespan, which is the latest complishment time of the virtual nodes.
+and the Increased cost, is the total user cost to minus the probable least cost, this index can reflect on the influence of varying scheduling scheme on the output better than the total cost as the figures on the bottom shous.
+Besides, our scheme would take care of Load balance.
+
+6.
+our study is based on the ant colony algorithm, the nodes on the left side are the task set, and the nodes on the right sides are the resource nodes, the ant would left the Pheromone on chosen path, the Pheromone will be stronger on the better path, and after many rounds, the solution would be close to the optimal map. 
+
+although the ACO is heuristic method, but it would not better than the random searching method  if there is no more guiding information
+so we should know how to get the answers of the following questions:
+How to get minimal cost
+How to get minimal makespan
+How to make load balanced 
+How to combine the goals
+
+as for the first question, we have answered in the last slide.
+the second question, it is to allocalte the same working time for every nodes.
+the third question, the cloudlet lengths in the node should be liner with the capability of the node.
+and we take the industry method to combine the goals such as google and alibaba, it is kind of easy way in fact, the liner weighted method.
+
+
+7.
+as the cloud environment is complex,  it is reasonable to make some assumptions before designing the scheduling scheme.
+the tasks and nodes is subject to the three assumptions,
+1 the requests of resource are accurate 
+it means the computation and the resource need of tasks is known explicitly during scheduling, the tasks would not expend in running time.
+2 submitted tasks are valid 
+it means the users would not interupt the running tasks
+3 all the nodes are trustworth
+it means the nodes would not break down and lead to the reallocation of the tasks
+
+on the basis of the assumptions, It is assumed that the tasks would be split into independent and no-split cloudlets.
+
+it should be pointed out that these assumptions do limit the using situation, such as only the offline tasks can subject to the first assumption, but are the assumptions so strong that it cannot be used in real world ?
+in fact the situations subject to the assumptions is relatively common, expecially in the engineering field or the scientific filed, such as beam struct simulation computing in architecture field, it may includes hundreds of systems of partial differential equations. 
+
+
+8.
+Improvement one： Pheromone Initialization
+The traditional ACO initialize the  pheromone matrix with fixed value, it actually leads to the searching blindly in the early phrase.
+so we combine the heuristic method and meta-heuristic method, we take the main idea of Min-min algorithm to initialize the pheromone.
+and The distribution of different resources in different nodes is considered as a kind of priori knowledge
+
+9.
+Improvement two：elite strategy
+Since the early selec-tion may be lack of searching guidance. The elite strategy is proposed to  take full advantage of the initial searching guidance. It is actually a kind of greedy strategy and used to accelerate the convergence rate and search efficiency.
+pheromone will be imposed for the best solution ever and the best solution this round
+
+
+10.
+Improvement three： adaptive volatility factor
+The elite strategy and prior information are greed strategies  in essence.
+Adaptive volatility factor is used to avoid premature convergence.
+If the best solution does not change for a lasting time, the pheromone in the optimal path will take an absolute advantage over others and cause premature convergence due to the positive feedback mechanism
+In the late phrase, the solution space would be searched sufficiently.
+
+11.
+Improvement Four：local pheromone updating strategy
+we adjust the pheromone before selecting the resource node to guide the
+selecting method and balance the system load
+Current Load balance level will be evaluated before path choice.
+The pheromone level on the unbalanced nodes will be adjusted
+
+12.
+and this is our settings, unfortunately, there is no usual task set, so we generate the task set, and the cost model is from amazon.
+the contrast algorithms are round-robin Fcfs and a improved aco algorithm based on constrains,which is put forward in 2015.
+
+13. as we can see the imaco  reduce the makespan .
+IMOACO algorithm uses the instructing message and strengthens the optimal solutions in each generation, for the purpose of improving searching efficiency at the present stage. And in the late stage, IMOACO adjusts the volatility factor adaptively, which overcome the drawback of positive feedback mechanism in some extent, so it has greater probability to find the optimal solution.
+
+14 reduce the cost 
+IMOACO always outperforms other algorithms. When the task numbers is small, IMOACO performs similar to other alogorithms, but with the scale of tasks increasing, the advantage of IMOACO is becoming obvious. When the task is 800, it has at least 13 % improvement over other algorithms in terms of premium.
+
+15 reduce the load balance
+IMOACO has obvious advantages on load balance. With the scale of tasks increasing, the unbalance degree of IMOACO much less than others.
