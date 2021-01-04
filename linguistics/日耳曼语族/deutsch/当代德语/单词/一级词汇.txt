@@ -1,0 +1,7 @@
+德语字典查看方法：m-der n-das f-die，一般顺序是 词性 （第二格）复数形
+一般名词的第二格都是加s，这种情况下，字典上不会特别标明，但是如果它的第二格不是加s，那么字典会在词性和复数形式之间标明它的第二格形式
+复数一律用die
+Die Arbeit 工作
+Der Tod 死亡 der; -(e)s,-e
+Das Buch 书 n, -(e)s, Bücher
+Der Wille 愿望 m.-ns,-n
